@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(255, 192, 17);
+}
+.navBarTittle{
+    width: 30%;
+}
+.navBarItems{
+    align-self: center;
+    
+}
+nav{
+    margin: 0%;
+    background-color: rgb(255, 192, 17);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.column1{
+    width: 50%;
+
+}
+.column2{
+    width: 50%;
+
+}
+.card{
+    background-color: rgb(255, 192, 17);
+    padding:5%;
+    align-items: center;
+    width: 30%;
+}
+.offers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.tryButton{
+    float: unset;
+    width: 100px;
+    height: 100px;
+    
+    margin: 5px;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    
+}
+.card2{
+    width: 50%;
+    padding: 2%;
+    align-items: center;
+    margin-left: 15%;
+}
+.card3{
+    width: 50%;
+    padding: 2%;
+    align-items: center;
+}
