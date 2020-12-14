@@ -17,20 +17,28 @@ nav{
     display: flex;
     flex-direction: row;
     margin: 5%;
+    align-items: center;
 }
 .column1{
-    width: 50%;
+    width: 60%;
 
 }
 .column2{
-    width: 50%;
+    width: 40%;
+    align-items: center;
 
 }
-.card{
+.card1{
     background-color: rgb(255, 192, 17);
     padding:5%;
     align-items: center;
-    width: 30%;
+    width: 40%;
+    height: 80%;
+    border-radius: 25px;
+    justify-content: center;
+    align-self: center;
+
+    
 }
 .offers{
     width: 100%;
@@ -51,13 +59,27 @@ nav{
     
 }
 .card2{
-    width: 50%;
+    width: 60%;
     padding: 2%;
     align-items: center;
-    margin-left: 15%;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
 }
 .card3{
-    width: 50%;
+    width: 80%;
     padding: 2%;
     align-items: center;
+    align-content: center;
+    text-align: center;
+    border: black;
+    box-shadow: 6px 20px 10px rgb(155, 155, 155);
+}
+.cardsOffers{
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+}
+.cardOffer{
+    width: 30%;
 }
