@@ -83,3 +83,13 @@ nav{
 .cardOffer{
     width: 30%;
 }
+
+.christmasTree{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#darkBackground{
+    background-color: black;
+}
